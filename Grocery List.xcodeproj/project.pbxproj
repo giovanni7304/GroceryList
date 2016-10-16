@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		862FFC791DB3C159004A29AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC781DB3C159004A29AD /* AppDelegate.swift */; };
-		862FFC7B1DB3C159004A29AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC7A1DB3C159004A29AD /* ViewController.swift */; };
 		862FFC7E1DB3C159004A29AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862FFC7C1DB3C159004A29AD /* Main.storyboard */; };
 		862FFC811DB3C159004A29AD /* Grocery_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC7F1DB3C159004A29AD /* Grocery_List.xcdatamodeld */; };
 		862FFC831DB3C159004A29AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862FFC821DB3C159004A29AD /* Assets.xcassets */; };
 		862FFC861DB3C159004A29AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862FFC841DB3C159004A29AD /* LaunchScreen.storyboard */; };
+		862FFC8E1DB3C368004A29AD /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		862FFC751DB3C159004A29AD /* Grocery List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		862FFC781DB3C159004A29AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		862FFC7A1DB3C159004A29AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		862FFC7D1DB3C159004A29AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		862FFC801DB3C159004A29AD /* Grocery_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grocery_List.xcdatamodel; sourceTree = "<group>"; };
 		862FFC821DB3C159004A29AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862FFC851DB3C159004A29AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862FFC871DB3C159004A29AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				862FFC781DB3C159004A29AD /* AppDelegate.swift */,
-				862FFC7A1DB3C159004A29AD /* ViewController.swift */,
 				862FFC7C1DB3C159004A29AD /* Main.storyboard */,
 				862FFC821DB3C159004A29AD /* Assets.xcassets */,
 				862FFC841DB3C159004A29AD /* LaunchScreen.storyboard */,
 				862FFC871DB3C159004A29AD /* Info.plist */,
 				862FFC7F1DB3C159004A29AD /* Grocery_List.xcdatamodeld */,
+				862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */,
 			);
 			path = "Grocery List";
 			sourceTree = "<group>";
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				862FFC7B1DB3C159004A29AD /* ViewController.swift in Sources */,
 				862FFC791DB3C159004A29AD /* AppDelegate.swift in Sources */,
+				862FFC8E1DB3C368004A29AD /* GroceryListTableViewController.swift in Sources */,
 				862FFC811DB3C159004A29AD /* Grocery_List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +306,7 @@
 				862FFC8C1DB3C159004A29AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
