@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				862FFC781DB3C159004A29AD /* AppDelegate.swift */,
+				862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */,
 				862FFC7C1DB3C159004A29AD /* Main.storyboard */,
 				862FFC821DB3C159004A29AD /* Assets.xcassets */,
 				862FFC841DB3C159004A29AD /* LaunchScreen.storyboard */,
 				862FFC871DB3C159004A29AD /* Info.plist */,
 				862FFC7F1DB3C159004A29AD /* Grocery_List.xcdatamodeld */,
-				862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */,
 			);
 			path = "Grocery List";
 			sourceTree = "<group>";
