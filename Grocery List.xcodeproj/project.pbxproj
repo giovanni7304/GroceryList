@@ -13,6 +13,8 @@
 		862FFC831DB3C159004A29AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862FFC821DB3C159004A29AD /* Assets.xcassets */; };
 		862FFC861DB3C159004A29AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862FFC841DB3C159004A29AD /* LaunchScreen.storyboard */; };
 		862FFC8E1DB3C368004A29AD /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */; };
+		862FFC951DB4338E004A29AD /* Grocery+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC931DB4338E004A29AD /* Grocery+CoreDataClass.swift */; };
+		862FFC961DB4338E004A29AD /* Grocery+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFC941DB4338E004A29AD /* Grocery+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		862FFC851DB3C159004A29AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862FFC871DB3C159004A29AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862FFC8D1DB3C368004A29AD /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		862FFC931DB4338E004A29AD /* Grocery+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Grocery+CoreDataClass.swift"; sourceTree = "<group>"; };
+		862FFC941DB4338E004A29AD /* Grocery+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Grocery+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		862FFC6C1DB3C159004A29AD = {
 			isa = PBXGroup;
 			children = (
+				862FFC931DB4338E004A29AD /* Grocery+CoreDataClass.swift */,
+				862FFC941DB4338E004A29AD /* Grocery+CoreDataProperties.swift */,
 				862FFC771DB3C159004A29AD /* Grocery List */,
 				862FFC761DB3C159004A29AD /* Products */,
 			);
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				862FFC791DB3C159004A29AD /* AppDelegate.swift in Sources */,
+				862FFC951DB4338E004A29AD /* Grocery+CoreDataClass.swift in Sources */,
 				862FFC8E1DB3C368004A29AD /* GroceryListTableViewController.swift in Sources */,
+				862FFC961DB4338E004A29AD /* Grocery+CoreDataProperties.swift in Sources */,
 				862FFC811DB3C159004A29AD /* Grocery_List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
